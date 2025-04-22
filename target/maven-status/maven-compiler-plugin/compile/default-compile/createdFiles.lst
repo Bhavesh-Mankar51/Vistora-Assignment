@@ -1,0 +1,8 @@
+com/vistora/model/Table.class
+com/vistora/model/ForeignKey.class
+com/vistora/model/Index.class
+com/vistora/controller/SchemaController.class
+com/vistora/model/Column.class
+com/vistora/service/SchemaCrawlerService.class
+com/vistora/DbSchemaCrawlerApplication.class
+com/vistora/config/DatabaseConfig.class

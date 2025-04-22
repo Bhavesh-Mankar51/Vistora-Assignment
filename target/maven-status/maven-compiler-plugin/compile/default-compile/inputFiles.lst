@@ -1,0 +1,8 @@
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/service/SchemaCrawlerService.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/controller/SchemaController.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/model/Index.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/model/Column.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/model/Table.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/model/ForeignKey.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/config/DatabaseConfig.java
+/Users/bhaveshmankar/vistora-assignment/src/main/java/com/vistora/DbSchemaCrawlerApplication.java
