@@ -9,22 +9,6 @@ mvn clean package
 java -jar target/db-schema-crawler-1.0.0.jar
 ```
 
-## Configuration Map
-
-| Category | Key | Value |
-|----------|-----|-------|
-| Database | URL | jdbc:mysql://localhost:3306/your_database |
-| | Username | your_username |
-| | Password | your_password |
-| Connection Pool | Max Size | 10 |
-| | Min Idle | 5 |
-| | Timeout | 20000ms |
-| JPA | DDL Auto | none |
-| | Show SQL | true |
-| Logging | Spring | INFO |
-| | App | DEBUG |
-| | SQL | DEBUG |
-
 ## API Map
 
 | Endpoint | Method | Description |
