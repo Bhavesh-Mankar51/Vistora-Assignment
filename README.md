@@ -2,6 +2,33 @@
 
 A Spring Boot application that crawls MySQL schemas and provides REST APIs for database metadata.
 
+## Core Idea & Logic
+
+1. **Schema Discovery**
+   - Queries MySQL's INFORMATION_SCHEMA to extract database structure
+   - Identifies tables, columns, relationships, and indexes
+   - Maps database metadata to Java objects
+
+2. **Performance Optimization**
+   - Uses HikariCP for efficient connection pooling
+   - Implements two-level caching (Spring Cache + ConcurrentHashMap)
+   - Optimizes SQL queries for metadata retrieval
+
+3. **Data Organization**
+   - Models database structure as Java objects (Table, Column, ForeignKey, Index)
+   - Maintains relationships between database entities
+   - Provides structured JSON responses
+
+4. **API Design**
+   - RESTful endpoints for schema access
+   - Hierarchical URL structure (/tables/{tableName}/columns)
+   - Proper HTTP status codes and error handling
+
+5. **Error Management**
+   - Custom exception handling for database operations
+   - Transaction management for data consistency
+   - Detailed error messages for debugging
+
 ## Quick Start
 
 ```bash
